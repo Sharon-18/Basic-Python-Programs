@@ -1,0 +1,8 @@
+a=3
+if(a<10):
+  print("True")
+else:
+  print("False")
+
+//output
+True
