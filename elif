@@ -1,0 +1,9 @@
+a=10
+if(20>a):
+    print("a is eligible")
+elif(a<5):
+    print("a is eligible")
+else:
+    print("Not eligible")
+
+//output : a is eligible
