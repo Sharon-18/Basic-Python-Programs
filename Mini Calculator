@@ -1,0 +1,19 @@
+a=int(input())
+b=int(input())
+option=input()
+if(option=="Add"):
+    print(a+b)
+elif(option=="Sub"):
+    print(a-b)
+elif(option=="Multi"):
+    print(a*b)
+elif(option=="Divi"):
+    print(a/b)
+else:
+    print("Invalid Input")
+
+ 
+    
+    
+    
+    
