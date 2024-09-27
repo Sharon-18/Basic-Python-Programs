@@ -1,0 +1,19 @@
+#add()
+z={1,2,3}
+z.add(5)
+print(z)
+
+#remove()
+z.remove(2)
+print(z)
+
+#remove 1st value from set
+z.pop()
+print(z)
+
+#to merge to sets
+z={1,2,3,5}
+y={1,5,7,8,9}
+z.update(y)
+print(z)
+
