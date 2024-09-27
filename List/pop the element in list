@@ -1,0 +1,5 @@
+a=[1,2,3,4]
+b=[5,6,7,8]
+b.pop(0) #it will delete the value in the particular mentioned index or we can use b.pop() to delete last element 
+print(b)
+
