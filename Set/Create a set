@@ -1,0 +1,2 @@
+a={1,4,56,7.8,34,34,5} #set can store any datatype but not allow duplicate
+print(a)
