@@ -1,0 +1,19 @@
+a={"name":"Sharon","age":10,"id":1}
+print(a["name"]) #to print the value in name
+
+print(a.values()) #to print all values in dict
+
+print(a.keys()) #to print all keys in dict
+
+a["score"]=10 #to add a new key score in dict
+print(a)
+
+a["age"]=25 #to change the value of age to 25
+print(a)
+
+a.clear() #to clear all the values in a
+print(a)
+
+del a #to delete the entire dict
+print(a)
+
