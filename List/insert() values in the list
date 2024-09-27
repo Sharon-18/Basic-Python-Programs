@@ -1,0 +1,7 @@
+a=[1,2,3,4]
+a.insert(1,5) #inserting value 5 in the index position 1 without replacing the element in that position
+print(a)
+
+a=[1,3,4,5]
+a[2]=6 #inserting value 6 in the index 2 replacing the element in 2 with 6
+print(a)
