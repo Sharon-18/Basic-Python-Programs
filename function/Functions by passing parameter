@@ -1,0 +1,11 @@
+#Giving integer as a parameter
+
+def add(a,b):
+    print("ADD",a+b)
+add(10,2)
+
+#Giving string as a parameter
+
+def message(msg):
+    print("Message:",msg)
+message("Hi..Welcome to python class")
