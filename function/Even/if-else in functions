@@ -1,7 +1,0 @@
-def passorfail():
-    a=int(input())
-    if(a>35):
-        print("a is pass")
-    else:
-        print("a is fail")
-passorfail()
