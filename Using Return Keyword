@@ -1,0 +1,15 @@
+s_username="EMC"
+s_password=123
+def validate():
+    x=str(input())
+    y=int(input())
+    if(x==s_username and y==s_password):
+        return True
+    else:
+        return False
+
+a=validate()
+print(a)
+
+
+          
