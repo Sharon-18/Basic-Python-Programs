@@ -1,0 +1,7 @@
+class a:
+    def b(self):
+      print("Happy Birthday !!")
+
+c = a()
+c.b()
+        
