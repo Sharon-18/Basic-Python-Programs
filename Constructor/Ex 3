@@ -1,0 +1,13 @@
+class teacher:
+    def __init__(self,n,r):
+        self.name=n
+        self.registerno=r
+    def display(self):
+        print(self.name)
+        print(self.registerno)
+
+t1=teacher("priya",1)
+t2=teacher("geetha",2)
+
+print(t1.name)
+print(t2.registerno)
