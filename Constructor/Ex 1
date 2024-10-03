@@ -1,0 +1,10 @@
+class student:
+    def __init__(self):
+        self.name="sharon"
+        self.registerno="11632"
+    def display(self):
+        print(self.name)
+        print(self.registerno)
+
+std=student()
+std.display()
