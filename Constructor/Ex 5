@@ -1,0 +1,18 @@
+class calculator:
+    def __init__(self,a,b):
+        self.num1=a
+        self.num2=b
+    def add(self):
+        print(self.num1+self.num2)
+    def sub(self):
+        print(self.num1-self.num2)
+    def multi(self):
+        print(self.num1*self.num2)
+    def divi(self):
+        print(self.num1/self.num2)
+
+t1=calculator(10,2)
+t1.add()
+t1.sub()
+t1.multi()
+t1.divi()
