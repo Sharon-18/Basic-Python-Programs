@@ -1,0 +1,12 @@
+class calculator:
+    def add(self,a,b):
+        print(a+b)
+    def sub(self,a,b):
+        print(a-b)
+    def multi(self,a,b):
+        print(a*b)
+    def divi(self,a,b):
+        print(a/b)
+
+t1=calculator()
+t1.divi(10,2)
