@@ -1,0 +1,13 @@
+"Pine Tree" is a recently launched startup Event Management company. The company gained a good reputation within a short span because of its highly reliable service delivery. As per the new administrative policies of the company, the Chairman of the company is elected every 4 years, the Finance Director is appointed every 2 years, the Chief Technical Director is elected every 3 years and the Security Chief is replaced every 5 years.
+This year, in Year X, the newly elected Chairman announced the appointment of the Finance Director, and a new Chief Technical Director, and congratulated the Security Chief for winning the recent election. That is, all positions were changed over. This is highly unusual. You will quantify how unusual this really is.
+Write a program that inputs the year X and the future year Y and lists all years between X and Y inclusive of when all positions change.
+
+
+y1 = int(input())
+y2 = int(input())
+while True:
+    if y1<=y2:
+        print("All positions change in year",y1)
+    else:
+        break
+    y1=y1+60
