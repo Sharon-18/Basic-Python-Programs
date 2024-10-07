@@ -1,0 +1,23 @@
+class fruit:
+    def name(self):
+        print("It is a FRUIT")
+
+class apple(fruit):
+    def color(self):
+        print("RED")
+
+class Mango(fruit):
+     pass
+
+class strawberry(fruit):
+     pass
+
+a=apple()
+a.name()
+
+m=Mango()
+m.name()
+
+s=strawberry()
+s.name()
+
