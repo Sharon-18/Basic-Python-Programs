@@ -1,0 +1,22 @@
+class fruit:
+    color = "red"
+     
+    def apple(self):
+        print(self.color)
+        
+    @classmethod
+    def mango(cls):
+        cls.color="yellow"
+        print("The color red changed to yellow")
+        
+
+    def banana(self):
+        print(self.color)
+        
+        
+f=fruit()
+f.apple()
+f.mango()
+f.banana()
+
+
