@@ -1,0 +1,26 @@
+class Grandpa():
+    def house(self):
+        print("House")
+
+class Dad():
+    def money(self):
+        print("Money")
+
+class son1(Grandpa,Dad):
+    def Everything():
+        print("Just for me")
+
+class son2(Grandpa):
+     pass
+
+class son3(Grandpa):
+    pass
+
+s2=son2()
+s2.house()
+
+s1=son1()
+s1.money()
+s1.house()
+
+
