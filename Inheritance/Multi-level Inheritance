@@ -1,0 +1,25 @@
+class StudentInfo():
+    def Info(self):
+        print("All Education Details")
+class School(StudentInfo):
+    def Sname(self):
+        print("School: IHM Higher Secc School")
+
+class College(School):
+    def clgname(self):
+        print("College: Vel Tech")
+
+class Office(College):
+    def Offname(self):
+        print("Office: Infosys")
+
+D=Office()
+D.Info()
+D.Sname()
+D.clgname()
+D.Offname()
+
+
+
+        
+
