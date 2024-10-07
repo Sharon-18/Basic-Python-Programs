@@ -1,0 +1,16 @@
+class fruit():
+    def type(self):
+        print("APPLE")
+
+class color():
+    def red(self):
+        print("RED COLOR")
+
+class apple(fruit, color):
+    def app(self):
+        print("Apple is a Red color Fruit")
+
+f=apple()
+f.type()
+f.red()
+f.app()
