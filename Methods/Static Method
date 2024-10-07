@@ -1,0 +1,12 @@
+lass student:
+    @staticmethod
+    def std3(x, y):
+        print(x+y)
+        
+s1=student
+s1.std3(10,3)
+
+
+
+
+        
