@@ -1,0 +1,8 @@
+class Addition():
+    def add(self,a,b=0,c=0):
+        print(a+b+c)
+
+a=Addition()
+a.add(10,2,3)
+a.add(10,10)
+a.add(5)
