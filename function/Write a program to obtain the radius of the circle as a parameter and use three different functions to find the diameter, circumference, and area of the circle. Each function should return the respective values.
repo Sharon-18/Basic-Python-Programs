@@ -1,0 +1,16 @@
+pie=3.14
+def find_Diameter(r):
+    print("Diameter of a circle ={:.2f}".format(2*r,2))
+
+def find_Circumference(r):
+    print("Circumference of a circle ={:.2f}".format(2*pie*r,2))
+    
+def find_Area(r):
+    print("Area of a circle ={:.2f}".format(pie*r*r,2))
+
+r=float(input())  
+find_Diameter(r)
+find_Circumference(r)
+find_Area(r)
+
+    
