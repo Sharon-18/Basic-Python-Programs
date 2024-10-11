@@ -1,0 +1,17 @@
+class Animal():
+    def __init__(self,name):
+        self.name=name       
+
+class Color(Animal):
+    def __init__(self,name,color):
+          super().__init__(name)
+          self.color = color
+        
+    def display(self):
+        print(self.name,self.color)
+        
+
+s1=Color("Dog","Brown")
+s1.display()
+
+
