@@ -1,0 +1,3 @@
+s="the great lion lose the game"
+s=s.replace("the ","")
+print("Result string is\n",s)
