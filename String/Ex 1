@@ -1,0 +1,9 @@
+"""The first and only line of the input consists of a binary string S, which describes a match. '0' means Peter lose a point, whereas '1' means he won the point.
+Output on a separate line a string describing who won the match. If Peter won then print "Win" (without quotes), otherwise print "Lose" (without quotes).
+Refer sample input and output for formatting specifications."""
+
+s = input()
+if(s.count("0")>s.count("1")):
+    print("Lose")
+else:
+    print("Win")
