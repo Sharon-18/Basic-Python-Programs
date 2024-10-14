@@ -1,0 +1,14 @@
+r=int(input())
+pi=3.14
+class circle:
+    def area():
+        print(pi*r*r)
+        
+    def perimeter():
+        print(2*pi*r)
+
+c=circle
+c.area()
+c.perimeter()
+
+
