@@ -1,0 +1,9 @@
+name=input()
+countryCode=input()
+isd =int(input())
+class country():
+        print("Country name =", name)
+        print("Country code =", countryCode)
+        print("Country isd =", isd)
+    
+c=country()
