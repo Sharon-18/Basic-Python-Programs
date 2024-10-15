@@ -1,0 +1,10 @@
+a=input()
+count=0
+for i in range(len(a)):
+    c=a[i]
+    if c in 'aeiouAEIOU':
+        count+=1
+print(count)
+    
+
+    
